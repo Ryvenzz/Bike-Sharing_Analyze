@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-dsday = pd.read_csv('/content/sample_data/all_data.csv')
+dsday = pd.read_csv('dashboard/all_data.csv')
 
 def create_daily(dsday):
     daily_rent_ds = dsday.groupby(by='dteday').agg({
