@@ -1,1 +1,1 @@
-https://dataanalyze.streamlit.app/
+https://dataanalyzeryve.streamlit.app/
